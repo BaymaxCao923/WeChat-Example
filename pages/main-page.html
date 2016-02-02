@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>北斗智慧定位</title>
+	<link rel="stylesheet" href="../FontAwesome/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="../weui/dist/style/weui.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<!-- 顶部navigationBar fixed -->
+	<div class="navBar">
+		北斗智慧定位
+		<a href="./contacts.html" style="float: right; padding-right: 10px; color: #FE7332" title="联系人">
+			<i class="icon-mobile-phone icon-large"></i>
+		</a>
+	</div>
+
+	<!-- title 汽车品牌LOGO 车牌号 消息 时间 -->
+	<div class="navBarIndent weui_cells weui_cells_access">
+		<a class="weui_cell" href="./car-info-list.html">
+			<div class="weui_cell_hd" style="padding-right:10px">
+				<img src="../resource/Audi.jpg" alt="Audi" width="40px" />
+			</div>
+			<div class="weui_cell_bd weui_cell_primary" style="color:black; font-size: 14px">
+				<p>京Z85321</p>
+				<p style="color:#B1B1B1">个性签名/个人简介</p>
+			</div>
+			<div class="weui_cell_ft">
+				今天 14:41
+			</div>
+		</a>
+	</div>
+
+	<!-- 动态、检测、报告、违章、导航、更多 -->
+	<div class="weui_cells">
+		<div class="mainPageList" style="color: #B4B4B4">
+
+			<a class="mainPageList_item" style="border-left: none" href="./real-time.html">
+				<div class="tag_i">
+					<i class="icon-comment icon-3x" style="color: #FA706A"></i>
+				</div>
+				<span>动态</span>
+			</a>
+
+			<a class="mainPageList_item" href="./car-check.html">
+				<div class="tag_i">
+					<i class="icon-cogs icon-3x" style="color:#88C954"></i>
+				</div>
+				<span>检测</span>
+			</a>
+
+			<a class="mainPageList_item" href="javascript:;">
+				<div class="tag_i">
+					<i class="icon-comments-alt icon-3x" style="color:#FF975D"></i>
+				</div>
+				<span>报告</span>
+			</a>
+
+			<a class="mainPageList_item" href="javascript:;">
+				<div class="tag_i">
+					<i class="icon-remove-sign icon-3x" style="color:#F17770"></i>
+				</div>
+				<span>违章</span>
+			</a>
+
+			<a class="mainPageList_item" href="javascript:;">
+				<div class="tag_i">
+					<i class="icon-road icon-3x" style="color:#28A6F7"></i>
+				</div>
+				<span>导航</span>
+			</a>
+
+			<a class="mainPageList_item" href="javascript:;">
+				<div class="tag_i">
+					<i class="icon-reorder icon-3x" style="color:#F17770"></i>
+				</div>
+				<span>更多</span>
+			</a>
+		</div>
+	</div>
+
+	<!-- 聊天列表 -->
+	<div class="mainPageChatList">
+		<div class="weui_cells" style="font-size:14px;">
+			<a class="weui_cell" href="./chat-page.html">
+				<div class="weui_cell_hd" style="padding-right:10px">
+					<img src="../resource/User-icon.png" alt="User-icon" width="40px" />
+				</div>
+				<div class="weui_cell_bd weui_cell_primary">
+					<p>京Y22207</p>
+					<span>我现在在：北京市...</span>
+					<!-- 第二行p标签，如果过长会自动撑开div的高度 -->
+				</div>
+				<div class="weui_cell_ft">
+					今天 10:30
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<!-- 底部切换列表 -->
+	<div class="tabBar">
+		<div class="tabBar_item">
+			<div><i class="icon-home icon-3x active"></i></div>
+			<span class="active">北斗智慧</span>
+		</div>
+		<a href="./discover.html">
+			<div class="tabBar_item">
+				<div><i class="icon-eye-open icon-3x"></i></div>
+				<span>发现</span>
+			</div>
+		</a>
+		<a href="./service.html">
+			<div class="tabBar_item">
+				<div><i class="icon-cogs icon-3x"></i></div>
+				<span>服务</span>
+			</div>
+		</a>
+		<a href="./me.html">
+			<div class="tabBar_item">
+				<div><i class="icon-user icon-3x"></i></div>
+				<span>我</span>
+			</div>
+		</a>
+	</div>
+
+	<script src="../js/main.js"></script>
+</body>
+
+</html>

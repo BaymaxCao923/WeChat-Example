@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="email=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>我</title>
+  <link rel="stylesheet" href="../FontAwesome/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="../weui/dist/style/weui.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="navBar">我</div>
+  <!-- 主体部分 -->
+  <!-- 个人信息 话题 活动 群组 -->
+  <div class="navBarIndent weui_cells weui_cells_access">
+    <a class="weui_cell" href="#">
+      <div class="weui_cell_hd">
+        <img src="../resource/User-icon.png" alt="用户头像" width="40px" height="40px" style="margin-right: 5px" />
+      </div>
+      <div class="weui_cell_bd weui_cell_primary">
+        <p>小二</p>
+      </div>
+      <div class="weui_cell_ft"></div>
+    </a>
+    <div class="weui_cell" style="padding: none">
+      <a class="meHeadItem" href="#">
+        <span>0</span>
+        <p>话题</p>
+      </a>
+      <a class="meHeadItem" href="#">
+        <span>0</span>
+        <p>活动</p>
+      </a>
+      <a class="meHeadItem" href="#" style="border-right:none">
+        <span>0</span>
+        <p>群组</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- 我的汽车 -->
+  <div class="weui_cells weui_cells_access" style="margin-top: 20px">
+    <a class="weui_cell" href="#">
+      <div class="weui_cell_hd">
+        <img src="../resource/Audi.jpg" alt="Audi" style="width:40px; padding-right: 5px" />
+      </div>
+      <div class="weui_cell_bd weui_cell_primary">
+        京Z85321
+      </div>
+      <div class="weui_cell_ft">
+        <img src="../resource/car-info.png" alt="" style="width:20px; height:20px" />
+      </div>
+    </a>
+  </div>
+
+  <!-- 我的钱包 我的订单 常用信息 收藏夹 -->
+  <div class=" weui_cells weui_cells_access" style="margin-top: 20px">
+    <a class="weui_cell" href="#">
+      <div class="weui_cell_hd"><i class="icon-credit-card" style="padding-right: 5px; color: #FB675F"></i></div>
+      <div class="weui_cell_bd weui_cell_primary">
+        <p>我的钱包</p>
+      </div>
+      <div class="weui_cell_ft"></div>
+    </a>
+    <a class="weui_cell" href="#">
+      <div class="weui_cell_hd"><i class="icon-tasks" style="padding-right: 5px; color: #28A6F7"></i></div>
+      <div class="weui_cell_bd weui_cell_primary">
+        <p>我的订单</p>
+      </div>
+      <div class="weui_cell_ft"></div>
+    </a>
+    <a class="weui_cell" href="#">
+      <div class="weui_cell_hd"><i class="icon-edit" style="padding-right: 5px; color: #FF9F6A"></i></div>
+      <div class="weui_cell_bd weui_cell_primary">
+        <p>常用信息管理</p>
+      </div>
+      <div class="weui_cell_ft" style="font-size:14px">地址、证件号等</div>
+    </a>
+    <a class="weui_cell" href="#">
+      <div class="weui_cell_hd"><i class="icon-star-empty" style="padding-right: 5px; color: #FB675F"></i></div>
+      <div class="weui_cell_bd weui_cell_primary">
+        <p>收藏夹</p>
+      </div>
+      <div class="weui_cell_ft"></div>
+    </a>
+  </div>
+
+  <!-- 服务电话 关于 设置 -->
+  <div class="weui_cells weui_cells_access" style="margin-top:20px">
+    <a class="weui_cell" href="#">
+      <div class="weui_cell_hd"><i class="icon-phone" style="padding-right: 5px; color: #28A6F7"></i></div>
+      <div class="weui_cell_bd weui_cell_primary">
+        <p>服务电话</p>
+      </div>
+      <div class="weui_cell_ft"></div>
+    </a>
+    <a class="weui_cell" href="#">
+      <div class="weui_cell_hd"><i class="icon-info-sign" style="padding-right: 5px; color: #28A6F7"></i></div>
+      <div class="weui_cell_bd weui_cell_primary">
+        <p>关于</p>
+      </div>
+      <div class="weui_cell_ft"></div>
+    </a>
+    <a class="weui_cell" href="#">
+      <div class="weui_cell_hd"><i class="icon-cog" style="padding-right: 5px; color: #808080"></i></div>
+      <div class="weui_cell_bd weui_cell_primary">
+        <p>设置</p>
+      </div>
+      <div class="weui_cell_ft"></div>
+    </a>
+  </div>
+
+  <!-- 退出登录 -->
+  <div class="weui_btn_area" style="margin-top:20px; margin-bottom:64px">
+    <a href="javascript:;" class="weui_btn weui_btn_warn">退出登录</a>
+  </div>
+
+  <!-- 底部切换列表 -->
+  <div class="tabBar">
+    <a href="./main-page.html">
+      <div class="tabBar_item">
+        <div><i class="icon-home icon-3x"></i></div>
+        <span>北斗智慧</span>
+      </div>
+    </a>
+    <a href="./discover.html">
+      <div class="tabBar_item">
+        <div><i class="icon-eye-open icon-3x"></i></div>
+        <span>发现</span>
+      </div>
+    </a>
+    <a href="./service.html">
+      <div class="tabBar_item">
+        <div><i class="icon-cogs icon-3x"></i></div>
+        <span>服务</span>
+      </div>
+    </a>
+    <div class="tabBar_item">
+      <div><i class="icon-user icon-3x active"></i></div>
+      <span class="active">我</span>
+    </div>
+  </div>
+
+</body>
+
+</html>

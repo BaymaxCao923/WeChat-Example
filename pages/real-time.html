@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="email=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>实时动态</title>
+  <link rel="stylesheet" href="../FontAwesome/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="../weui/dist/style/weui.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=	9StYTZknj329QY9BgLohSpd5"></script>
+  <style media="screen">
+    body,
+    html,
+    #allmap {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      margin: 0;
+      font-family: "微软雅黑";
+    }
+  </style>
+</head>
+
+<body>
+  <div id="allmap"></div>
+  <!-- 顶部navigationBar fixed -->
+  <div class="navBar">
+    实时动态
+    <a href="javascript:;" style="float: right; padding-right: 10px; color: #FE7332" title="分享">
+      <i class="icon-share"></i>
+    </a>
+  </div>
+  <!-- 左侧状态栏 -->
+  <div class="statusBox">
+    <div class="statusBox_item">
+      <img src="../resource/drive-range.png" alt="行驶距离" height="30px" />
+      <span>1.7KM</span>
+    </div>
+    <div class="statusBox_item">
+      <img src="../resource/drive-time.png" alt="行驶时间" height="30px" />
+      <span>00:06:03</span>
+    </div>
+    <div class="statusBox_item" style="margin-bottom: 0">
+      <img src="../resource/drive-consumption.png" alt="行驶油耗" height="30px" />
+      <span>12.4L/100KM</span>
+    </div>
+
+  </div>
+  <!-- 右侧工具栏 -->
+  <div class="toolBox">
+    <div class="toolBox_item">
+      <a href="javascript:;">
+        <img src="../resource/car-location-active.png" alt="汽车位置" />
+      </a>
+    </div>
+    <div class="toolBox_item">
+      <a href="javascript:;">
+        <img src="../resource/user-location.png" alt="用户位置" />
+      </a>
+    </div>
+    <div class="toolBox_item" style="margin-bottom: 0">
+      <a href="javascript:;">
+        <img src="../resource/traffic-status.png" alt="路况" />
+      </a>
+    </div>
+  </div>
+  <script src="../js/bdmap.js" charset="utf-8"></script>
+</body>
+
+</html>
